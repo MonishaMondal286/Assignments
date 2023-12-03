@@ -1,0 +1,23 @@
+
+
+#parent{
+    width:60%;
+    height: 200px;
+    border: 0px solid black ;
+    margin-top: 50px;
+    margin-left: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    width: 16%;
+    height: 250px;
+    border: 0px solid black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+h1{
+   text-align: center;
+   margin-top: 80px;
+}

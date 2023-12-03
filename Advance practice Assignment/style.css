@@ -1,0 +1,49 @@
+body{
+    background-image: url(Banner.jpeg);
+}
+#navbar{
+    display: flex;
+}
+#logo{
+    width: 550px;
+    height: 50px;
+    border: 0px solid white;
+    
+}
+
+h2{
+    color: white;
+    margin-left: 120px;
+}
+#parent{
+    width: 780px;
+    height: 50px;
+    border: 0px solid white;
+    color: white;
+    display: flex;
+    
+}
+.child1{
+    margin-left: 50px;
+
+}
+#parent1{
+    width: 320px;
+    height: 170px;
+    border: 0px solid white;
+    margin-top: 220px;
+    margin-left: 240px;
+}
+h1{
+    color: white;
+    height: 30px;
+}
+p1{
+    color: white;
+}
+button{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid white;
+}
