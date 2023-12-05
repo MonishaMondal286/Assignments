@@ -1,0 +1,467 @@
+#main{
+    width: 90%;
+    height: 700px;
+    border: 0px solid black;
+    margin: auto;
+}
+#upper{
+    width: 98%;
+    height: 485px;
+    border: 0px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    gap: 1px;
+    
+}
+.child{
+    width: 50px;
+    height: 55px;
+    border: 0px solid black;
+   
+}
+
+/* this code is for blue box */
+#upper>div:nth-child(1){
+    background-color: blue;
+}
+#upper>div:nth-child(32){
+    background-color: blue;
+}
+#upper>div:nth-child(33){
+    background-color: blue;
+}
+#upper>div:nth-child(34){
+    background-color: blue;
+}
+#upper>div:nth-child(51){
+    background-color: blue;
+}
+#upper>div:nth-child(52){
+    background-color: blue;
+}
+#upper>div:nth-child(70){
+    background-color: blue;
+}
+/* this code is for box */
+#upper>div:nth-child(18){
+    background-color: rgb(64, 0, 128);
+}
+#upper>div:nth-child(36){
+    background-color:  rgb(64, 0, 128);
+}
+#upper>div:nth-child(54){
+    background-color:  rgb(64, 0, 128);
+}
+#upper>div:nth-child(72){
+    background-color:  rgb(64, 0, 128);
+}
+#upper>div:nth-child(90){
+    background-color:  rgb(64, 0, 128);
+}
+#upper>div:nth-child(108){
+    background-color:  rgb(64, 0, 128);
+}
+#upper>div:nth-child(126){
+    background-color:  rgb(64, 0, 128);
+}
+
+/* this code is for 17th col boxes */
+#upper>div:nth-child(35){
+    background-color:  rgb(193, 148, 238);
+}
+#upper>div:nth-child(53){
+    background-color:  rgb(193, 148, 238);
+}
+#upper>div:nth-child(71){
+    background-color:  rgb(193, 148, 238);
+}
+#upper>div:nth-child(89){
+    background-color:  rgb(193, 148, 238);
+}
+#upper>div:nth-child(107){
+    background-color:  rgb(193, 148, 238);
+}
+#upper>div:nth-child(125){
+    background-color:  rgb(193, 148, 238);
+}
+/* this code is for red boxes */
+#upper>div:nth-child(19){
+    background-color:  red;
+}
+#upper>div:nth-child(37){
+    background-color:  red;
+}
+#upper>div:nth-child(55){
+    background-color:  red;
+}
+#upper>div:nth-child(73){
+    background-color:  red;
+}
+#upper>div:nth-child(91){
+    background-color:  red;
+}
+#upper>div:nth-child(109){
+    background-color:  red;
+}
+/* this code is for gold color boxes */
+#upper>div:nth-child(20){
+    background-color:  gold;
+}
+#upper>div:nth-child(38){
+    background-color:  gold;
+}
+#upper>div:nth-child(56){
+    background-color:  gold;
+}
+#upper>div:nth-child(74){
+    background-color:  gold;
+}
+#upper>div:nth-child(92){
+    background-color:  gold;
+}
+#upper>div:nth-child(110){
+    background-color:  gold;
+}
+/* this code is for yellow color boxes */
+#upper>div:nth-child(57){
+    background-color:  yellow;
+}
+#upper>div:nth-child(58){
+    background-color:  yellow;
+}
+#upper>div:nth-child(59){
+    background-color:  yellow;
+}
+#upper>div:nth-child(60){
+    background-color:  yellow;
+}
+#upper>div:nth-child(61){
+    background-color:  yellow;
+}
+#upper>div:nth-child(62){
+    background-color:  yellow;
+}
+#upper>div:nth-child(63){
+    background-color:  yellow;
+}
+#upper>div:nth-child(64){
+    background-color:  yellow;
+}
+#upper>div:nth-child(65){
+    background-color:  yellow;
+}
+#upper>div:nth-child(66){
+    background-color:  yellow;
+}
+#upper>div:nth-child(75){
+    background-color:  yellow;
+}
+#upper>div:nth-child(76){
+    background-color:  yellow;
+}
+#upper>div:nth-child(77){
+    background-color:  yellow;
+}
+#upper>div:nth-child(78){
+    background-color:  yellow;
+}
+#upper>div:nth-child(79){
+    background-color:  yellow;
+}
+#upper>div:nth-child(80){
+    background-color:  yellow;
+}
+#upper>div:nth-child(81){
+    background-color:  yellow;
+}
+#upper>div:nth-child(82){
+    background-color:  yellow;
+}
+#upper>div:nth-child(83){
+    background-color:  yellow;
+}
+#upper>div:nth-child(84){
+    background-color:  yellow;
+}
+#upper>div:nth-child(94){
+    background-color:  yellow;
+}
+#upper>div:nth-child(95){
+    background-color:  yellow;
+}
+#upper>div:nth-child(96){
+    background-color:  yellow;
+}
+#upper>div:nth-child(97){
+    background-color:  yellow;
+}
+#upper>div:nth-child(98){
+    background-color:  yellow;
+}
+#upper>div:nth-child(99){
+    background-color:  yellow;
+}
+#upper>div:nth-child(100){
+    background-color:  yellow;
+}
+#upper>div:nth-child(101){
+    background-color:  yellow;
+}
+#upper>div:nth-child(102){
+    background-color:  yellow;
+}
+#upper>div:nth-child(111){
+    background-color:  yellow;
+}
+#upper>div:nth-child(112){
+    background-color:  yellow;
+}
+#upper>div:nth-child(113){
+    background-color:  yellow;
+}
+#upper>div:nth-child(114){
+    background-color:  yellow;
+}
+#upper>div:nth-child(115){
+    background-color:  yellow;
+}
+#upper>div:nth-child(116){
+    background-color:  yellow;
+}
+#upper>div:nth-child(117){
+    background-color:  yellow;
+}
+#upper>div:nth-child(118){
+    background-color:  yellow;
+}
+#upper>div:nth-child(119){
+    background-color:  yellow;
+}
+#upper>div:nth-child(120){
+    background-color:  yellow;
+}
+/* this code is for pink box */
+#upper>div:nth-child(93){
+    background-color:  rgb(239, 76, 226);
+}
+/* this code is for violet box */
+#upper>div:nth-child(111){
+    background-color:  rgb(93, 35, 93);
+}
+/* this code is for green box */
+#upper>div:nth-child(49){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(67){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(85){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(103){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(121){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(86){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(104){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(105){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(122){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(123){
+    background-color: rgb(122, 241, 122);
+}
+#upper>div:nth-child(124){
+    background-color: rgb(122, 241, 122);
+}
+/* this code is for skyblue boxes */
+#upper>div:nth-child(31){
+    background-color: rgb(88, 196, 239);
+}
+#upper>div:nth-child(50){
+    background-color: rgb(88, 196, 239);
+}
+#upper>div:nth-child(68){
+    background-color: rgb(88, 196, 239);
+}
+#upper>div:nth-child(69){
+    background-color: rgb(88, 196, 239);
+}
+#upper>div:nth-child(87){
+    background-color: rgb(88, 196, 239);
+}
+#upper>div:nth-child(88){
+    background-color: rgb(88, 196, 239);
+}
+#upper>div:nth-child(106){
+    background-color: rgb(88, 196, 239);
+}
+
+#middle{
+    width: 80%;
+    height: 130px;
+    border: 0px solid black;
+    margin-left: 180px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    gap: 1px;
+}
+.child1{
+    width: 50px;
+    height: 55px;
+    border: 0px solid black;
+   
+}
+/* code for pink boxes */
+#middle>div:nth-child(1){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(2){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(3){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(4){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(5){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(6){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(7){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(8){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(9){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(10){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(11){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(12){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(13){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(14){
+    background-color:  rgb(239, 76, 226);
+}
+#middle>div:nth-child(15){
+    background-color:  rgb(239, 76, 226);
+}
+
+/* this code is for purple boxes */
+#middle>div:nth-child(16){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(17){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(18){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(19){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(20){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(21){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(22){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(23){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(24){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(25){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(26){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(27){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(28){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(29){
+    background-color:  rgb(93, 35, 93);
+}
+#middle>div:nth-child(30){
+    background-color:  rgb(93, 35, 93);
+}
+
+#lower{
+    width: 60%;
+    height: 45px;
+    border: 0px solid black;
+    margin-left: 270px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 1px;
+}
+
+.child2{
+    width: 50px;
+    height: 21px;
+    border: 0px solid black;
+    margin-top: 5px;
+  
+}
+#lower>div:nth-child(1){
+    background-color:  red;
+}
+#lower>div:nth-child(2){
+    background-color:  gold;
+}
+#lower>div:nth-child(3){
+    background-color:  yellow;
+}
+#lower>div:nth-child(4){
+    background-color:  rgb(122, 241, 122);
+}
+#lower>div:nth-child(5){
+    background-color:  rgb(88, 196, 239);
+}
+#lower>div:nth-child(6){
+    background-color:  blue;
+}
+#lower>div:nth-child(7){
+    background-color:  rgb(193, 148, 238);
+}
+#lower>div:nth-child(8){
+    background-color:  rgb(64, 0, 128);
+}
+#lower>div:nth-child(9){
+    background-color:  rgb(239, 76, 226);
+}
+#lower>div:nth-child(10){
+    background-color:  rgb(93, 35, 93);
+}
