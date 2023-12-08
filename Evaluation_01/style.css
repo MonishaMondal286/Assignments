@@ -1,0 +1,75 @@
+#main{
+    width: 90%;
+    height: 1050px;
+    border: 0px solid black;
+    margin: auto;
+}
+#banner{
+    width: 1000px;
+    height: 250px;
+    border: 0px solid black;
+    margin: auto;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+h1{
+    color: white;
+    margin-left: 50px;
+}
+p{
+    color: white;
+    margin-left: 50px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px solid white;
+    margin-left: 50px;
+}
+#services{
+    width: 1000px;
+    height: 220px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 76px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+.child1{
+    width: 150px;
+    height: 220px;
+    border: 0px solid black;
+    margin-left: 5px;
+}
+h4{
+    margin-top: 2px;
+}
+p1{
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
+p2{
+    margin-left: 450px;
+}
+#works{
+    width: 1000px;
+    height: 400px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 76px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.child2{
+    width: 235px;
+    height: 180px;
+    border: 0px solid black;
+}
+p3{
+   font-size: 14px;
+}
