@@ -1,0 +1,92 @@
+#main{
+    width: 80%;
+    height: 600px;
+    border: 0px solid black;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 130px;
+
+}
+#parent1{
+    width: 35%;
+    height: 500px;
+    border: 0px solid black;
+    margin-left: 120px;
+
+}
+#parent2{
+    width: 35%;
+    height: 500px;
+    border: 0px solid black;
+    margin-left: 40px;
+   
+}
+.img2{
+   margin-left: 80px;
+   margin-bottom: 35px;
+   margin-top: 40px;
+}
+#form1{
+    width: 350px;
+    height: 360px;
+    border: 1px solid grey;
+    margin: auto;
+}
+input{
+    width: 260px;
+    height: 27px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    border-radius: 3px;
+    }
+button{
+    width: 265px;
+    height: 27px;
+    border: 0px solid black;
+    margin-left: 45px;
+    margin-top: 8px;
+    background-color: rgb(18, 168, 228);
+    color: white;
+    border-radius: 8px;
+}
+p{
+    margin-left: 45px;
+    font-size: x-small;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: grey;
+}
+a{
+    text-decoration: none;
+    margin-left: 110px;
+}
+p1{
+    margin-bottom: 20px;
+    margin-left: 120px;
+    color: blue;
+}
+p3{
+    color: blue;
+}
+#form2{
+    width: 349px;
+    height: 45px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.img3{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+p4{
+    margin-left: 150px;
+}
+
+
