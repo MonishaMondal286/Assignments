@@ -1,0 +1,124 @@
+#container{ 
+    display:grid; 
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(3,200px); 
+    gap:20px; 
+    border:0px solid red; 
+    width:80%; 
+    margin: auto; 
+} 
+#container>div{ 
+    border:0px solid blue; 
+    padding: 0px 20px; 
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+} 
+#container>div>div{ 
+    display:flex; 
+    justify-content: space-between; 
+} 
+#container>div>div>p{ 
+    font-weight: bold; 
+} 
+#container>div>div>p:last-child{ 
+    color:brown 
+} 
+.para{ 
+    margin-top: 30px; 
+} 
+
+/* for small devices only  */
+@media only screen and (min-width:248px) and (max-width:480px){
+    #container{ 
+        display:grid; 
+        grid-template-columns: repeat(1,1fr); 
+        grid-template-rows: repeat(1,1fr); 
+        gap:10px; 
+        border:0px solid red; 
+        width:80%; 
+        margin: auto; 
+    } 
+    #container>div{ 
+        border:0px solid blue; 
+        padding: 0px 20px; 
+        border-radius: 10px; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    } 
+    #container>div>div{ 
+        display:flex; 
+        justify-content: space-between; 
+    } 
+    #container>div>div>p{ 
+        font-weight: bold; 
+    } 
+    #container>div>div>p:last-child{ 
+        color:brown 
+    } 
+    .para{ 
+        margin-top: 30px; 
+    } 
+    
+}
+/* for medium devices */
+@media only screen and (min-width:481px) and (max-width:768px){
+#container{ 
+    display:grid; 
+    grid-template-columns: repeat(2,1fr); 
+    grid-template-rows: repeat(2,200px); 
+    gap:20px; 
+    border:0px solid red; 
+    width:80%; 
+    margin: auto; 
+} 
+#container>div{ 
+    border:0px solid blue; 
+    padding: 0px 20px; 
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+} 
+#container>div>div{ 
+    display:flex; 
+    justify-content: space-between; 
+} 
+#container>div>div>p{ 
+    font-weight: bold; 
+} 
+#container>div>div>p:last-child{ 
+    color:brown 
+} 
+.para{ 
+    margin-top: 30px; 
+} 
+}
+
+/* for large devices */
+@media only screen and (min-width:789px) {
+    #container{ 
+        display:grid; 
+        grid-template-columns: repeat(3,1fr); 
+        grid-template-rows: repeat(3,200px); 
+        gap:20px; 
+        border:0px solid red; 
+        width:80%; 
+        margin: auto; 
+    } 
+    #container>div{ 
+        border:0px solid blue; 
+        padding: 0px 20px; 
+        border-radius: 10px; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    } 
+    #container>div>div{ 
+        display:flex; 
+        justify-content: space-between; 
+    } 
+    #container>div>div>p{ 
+        font-weight: bold; 
+    } 
+    #container>div>div>p:last-child{ 
+        color:brown 
+    } 
+    .para{ 
+        margin-top: 30px; 
+    } 
+}
