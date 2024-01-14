@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+           gap: 10px;
+            display: flex;
+            background-color: orange;
+            padding: 20px;
+        }
+        #container>div{
+            background-color: aqua;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+
+    <script>
+        let box = document.querySelectorAll("#container>div")
+        console.log(box)
+        for (let i=0;i<box.length;i++){
+            box[i].addEventListener("click",myFunction)
+        }
+
+        function myFunction(){
+           // event.target.parentNode.style.backgroundColor = "maroon"
+            event.target.nextElementSibling.style.backgroundColor = "yellow"
+        }
+    </script>
+</body>
+</html>
