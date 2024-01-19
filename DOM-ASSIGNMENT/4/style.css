@@ -1,0 +1,13 @@
+#clk{
+    width: 80px;
+    height: 40px;
+    border: 1px solid grey;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: medium;
+   background-color: rgb(45, 0, 128);
+   color: white;
+   border-radius: 5px;
+   align-items: center;
+}
