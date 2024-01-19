@@ -1,0 +1,316 @@
+#navbar{
+    width: 1313px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.887);
+    margin-left: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+   
+}
+body{
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    
+   
+}
+
+#main{
+    width: 1310px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 1px;
+   
+}
+#main2{
+    width: 100%;
+    height: 155px;
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+   
+}
+.imgs{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+img{
+    margin-left: px;
+}
+#hot_selling{
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(126, 120, 120);
+  margin-top: 5px;
+}
+#hot_selling>p{
+    font-size: 30px;
+    font-weight: bolder;
+   margin-top: 10px;
+
+}
+#hot_selling>p>p1{
+    font-size: 19px;
+    font-weight: lighter;
+}
+/* 1st main */
+#hot_deal{
+    width: 2500px;
+    height: 330px;
+    border: 1px solid rgb(5, 5, 5);
+    /* justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr); */
+    display: flex;
+    cursor: pointer;
+}
+.deal1{
+    width: 25%;
+    height: 330px;
+    border: 1px solid black;
+    background-color: rgb(235, 235, 235);
+  
+}
+.deal1>p>p1{
+      font-weight: bolder;
+      font-size: 20px;
+}
+.deal1>p{
+    font-size: 19px;
+}
+.deal1>img{
+    margin-left: 40px;
+}
+#main3{
+    width: 2500px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+   
+}
+#main3>.child{
+    width: 12.5%;
+    height: 100px;
+    border: 1px solid black;
+   
+}
+#main3>.child>p{
+   font-weight: bolder;
+   font-size: 25px;
+   margin-left: 5px;
+}
+#main3>.child>p>p1{
+    margin-left: 1px;
+    font-weight: lighter;
+    font-size: 17px
+}
+
+/* div 6 - color balls */
+#balls{
+    width:  2500px;
+    height: 70px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+#balls>.clr_balls{
+    width:  310.5px;
+    height: 70px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+   
+}
+#balls>.clr_balls>.sml_balls{
+    width:  30px;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 18px;
+    margin-left: 5px;
+    border-radius: 100%;
+    }
+    /* 1st box  */
+.clr_balls>:nth-child(1){
+    background-color: brown;
+}
+.clr_balls>:nth-child(2){
+    background-color: black;
+}
+.clr_balls>:nth-child(3){
+    background-color: rgb(104, 153, 104);
+}
+.clr_balls>:nth-child(4){
+    background-color:rgb(11, 11, 27);
+}
+.clr_balls>:nth-child(5){
+    background-color: orangered ;
+}
+.clr_balls>:nth-child(6){
+    background-color: rgb(14, 14, 27);
+}
+/* 2nd box */
+#balls>:nth-child(2)>:nth-child(1){
+    background-color:rgb(9, 9, 31) ;
+}
+ #balls>:nth-child(2)>:nth-child(2){
+    background-color: rgb(66, 65, 65) ;
+}
+ 
+#balls>:nth-child(2)>:nth-child(3){
+    background-color:  rgb(32, 7, 7) ;
+}
+#balls>:nth-child(2)>:nth-child(4){
+    background-color: rgb(233, 204, 209) ;
+}
+#balls>:nth-child(2)>:nth-child(5){
+    background-color: rgb(139, 222, 255) ;
+}
+ /* grab  */
+ #grab{
+    width:  2500px;
+    height: 110px;
+    border: 1px solid black;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+ }
+ .grb{
+    width: 99.5%;
+    height: 110px;
+    border: 1px solid black;
+    
+    
+ }
+ .grb>span>p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1px;
+   
+    
+ }
+ .grb>span>p1{
+    text-decoration:line-through;
+    color: rgb(141, 138, 138);
+ }
+ .grb>span>p2{
+    color: orangered;
+  }
+ .grb>button{
+    width: 180px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+  
+ }
+ .grb>.green{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(40, 192, 40);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+ }
+/* just launched*/
+#just{
+    width: 1100px;
+    height: 70px;
+    border: 1px solid black;
+   display: flex;
+   align-items: center;
+}
+#just>p{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: 15px;
+   
+}
+#just>p1{
+    margin-left: 350px;
+    font-size: 19px;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+#just>div{
+    width: 250px;
+    height: 65px;
+    border: 1px solid black;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+}
+#just>div>p{
+    align-items: center;
+    font-weight: bolder;
+}
+#just>p2{
+    font-size: 20px;
+}
+
+/* 2nd main (new launch) */
+#new_launch{
+    width: 2500px;
+    height: 330px;
+    border: 1px solid rgb(5, 5, 5);
+    display: flex;
+}
+.launch1{
+    width: 25%;
+    height: 330px;
+    border: 1px solid black;
+    background-color: rgb(235, 235, 235);
+  
+}
+.launch1>p>p1{
+      font-weight: bolder;
+      font-size: 20px;
+}
+.launch1>p{
+    font-size: 19px;
+}
+.launch1>img{
+    margin-left: 40px;
+}
+
+#main4{
+    width: 2500px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+   
+}
+#main4>.child1{
+    width: 12.5%;
+    height: 100px;
+    border: 1px solid black;
+   
+}
+#main4>.child1>p{
+   font-weight: bolder;
+   font-size: 25px;
+   margin-left: 5px;
+}
+#main4>.child1>p>p1{
+    margin-left: 1px;
+    font-weight: lighter;
+    font-size: 17px
+}
+
+/* div 6 - color balls */
+
+
+
+
