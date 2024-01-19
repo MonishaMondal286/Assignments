@@ -1,0 +1,120 @@
+/*Home page*/
+#navbar{
+    width: 1290px;
+    height: 90px;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(153, 46, 46);
+    font-family: Arial, sans-serif;
+}
+.logo{
+    width: 90px;
+    height: 50px;
+    margin-right: 750px;
+    margin-left: 50px;
+
+}
+.img1{
+    border-radius: 10px;
+}
+/* *{ 
+    font-family: Arial, sans-serif;
+}*/
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+#main{
+    width:  1290px;
+    height: 900px;
+    border: 0px solid black;
+   
+}
+
+/* Menu page */
+#main1{
+width:  1290px;
+height: 900px;
+border: 0px solid black;
+display: flex;
+margin-top: 10px;
+}
+.cart{
+    width:  400px;
+    height: 875px;
+    border: 0px solid black;
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+h1{
+    color: maroon;
+    text-align: center;
+    font-size: 40px;
+}
+.cart_food{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(157, 157, 10);
+}
+.menu{
+    width:  830px;
+    height: 890px;
+    border: 0px solid black;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    margin-left: 10px;
+}
+.food{
+    width:  250px;
+    height: 280px;
+    border: 0px solid black;
+    text-align: center;
+    line-height: 2px;
+    margin-left: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(153, 46, 46);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+button{
+    width:  100px;
+    height: 20px;
+    border: 1px solid lightgrey;
+    color: purple;
+    background-color: rgb(217, 211, 222);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* view for small devices only  */
+@media all and (min-width:260px) and (max-width:480px){
+    body{
+        
+        margin: 0;
+    }
+    #navbar{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+
+    /* Menu Page */
+    .cart{
+        width: 40%;
+        height: auto;
+    }
+    .food{
+        grid-template-columns:repeat(1,1fr) ;
+    }
+
+}
