@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+   
+   
+</head>
+<body>
+ <input id="vo" type="alphabet">
+ <button onclick="alpha()">check</button>
+
+
+   
+</body>
+</html>
+
+
+<script >
+     function alpha(){
+        let vowel = document.getElementById("vo").value ;
+        // console.log(vowel)
+        // console.log(typeof(vowel))
+        if(vowel===("A","E","I","O","U","a","e","i","o","u")){
+           
+           alert(vowel + " is a vowel")
+       }else{
+           alert(vowel + " is not a vowel")
+       }
+
+      
+     }
+
+
+
+
+
+
+</script>
+
