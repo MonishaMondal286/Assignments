@@ -1,0 +1,286 @@
+#top{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+#top>p{
+    text-align: center;
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    border: 1px solid lightgray;
+    display: flex;
+
+}
+.nav{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#navbar>span{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+#navbar>.nav>a{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+#navbar>input{
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgb(212, 209, 209);
+    margin-top: 10px;
+}
+#navbar>p{
+    margin-left: 40px;
+}
+
+/* 3rd box */
+#section{
+    width: 100%;
+    height: 75px;
+    border: 1px solid white;
+}
+
+#section>p{
+    margin-top: 25px;
+}
+
+#best_selling{
+    width: 100%;
+    height: 650px;
+    border: 1px solid  white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#best_selling>.best{
+    width: 100%;
+    height: 650px;
+    border: 1px solid white;
+}
+
+#arrivals{
+    width: 900px;
+    height: 120px;
+    border: 1px solid  white;
+    margin: auto;
+}
+#arrivals>button{
+    width: 130px;
+    height: 40px;
+    border: 1px solid gray;
+   margin-top: 45px;
+   margin-left: 30px;
+   font-weight: bolder;
+   font-size: 12px;
+
+}
+#arrivals>span{
+    font-size: 30px;
+}
+
+#collection{
+    width: 95%;
+    height: 2608px;
+    border: 1px solid white;
+    margin: auto;
+}
+#collection>.first{
+    width: 100%;
+    height: 650px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+#more{
+    width: 85%;
+    height: 550px;
+    border: 1px solid white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+
+}
+#more>.stories{
+    width: 100%;
+    height: 550px;
+    border: 0px solid black;
+}
+#more>.stories>p{
+    font-size: 25px;
+}
+#more>.stories>p1{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#scan>img{
+    margin-left: 40px;
+}
+
+#shop{
+    margin-left: 500px;
+    font-size: 35px;
+    line-height: 10px;
+}
+#shop2{
+    margin-left: 510px;
+    font-size: 20px;
+}
+#instas{
+    margin-left: 510px;
+    font-size: 35px;
+}
+#loves{
+    width: 98%;
+    height: 280px;
+    border: 0px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+#loves>.love{
+    width: 97%;
+    height: 280px;
+    border: 0px solid black;
+    margin: auto;
+}
+
+#imagined{
+    width: 95%;
+    height: 500px;
+    border: 0px solid black;
+    margin: auto;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#imagined>.imagine{
+    width: 94%;
+    height: 500px;
+    border: 0px solid black;
+    margin-left: 10px;
+}
+#imagined>.imagine>p{
+    font-size: 25px; 
+}
+#imagined>.imagine>p1{
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#passport>img{
+    margin-left: 240px;
+}
+#know{
+    font-size: 35px;
+    margin-left: 500px;
+}
+#see{
+    width: 98%;
+    height: 350px;
+    border: 0px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+#see>.love>p{
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#mail{
+    margin-left: 550px;
+}
+#footer{
+    width: 100%;
+    height: 500px;
+    border: 0px solid black;
+    background-color: rgb(241, 240, 240);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#footer>.child1{
+    width: 850px;
+    height: 500px;
+    border: 0px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#footer>.child2{
+    width: 430px;
+    height: 450px;
+    border: 0px solid black;
+    margin-top: 50px;
+}
+#footer>.child1>.links{
+    width: 180px;
+    height: 450px;
+    border: 0px solid black;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#footer>.child1>.links>p{
+    cursor: pointer;
+    line-height: 10px;
+    font-size: 14px;
+}
+.child2>.sign_up>input{
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+}
+.child2>.sign_up>button{
+    width: 100px;
+    height: 36px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+}
+.child2>.sign_up>p{
+    margin-left: 50px;
+    color: gray;
+}
+.child2>.sign_up>h4{
+    margin-left: 50px;
+}
+.child2>.sign_up>p>p1{
+    text-decoration: underline;
+    color: black;
+}
+.child2>.sign_up>p1{
+    text-decoration: underline;
+    margin-left: 50px;
+}
+
+
+#footer1{
+    width: 100%;
+    height: 250px;
+    border: 0px solid black;
+    background-color:  rgb(241, 240, 240);
+}
+#footer1>p6{
+    margin-left: 30px;
+}
+#footer1>img{
+    margin-left: 20px;
+}
+#footer1>p{
+    margin-left: 24px;
+}
+    
+
+
+
