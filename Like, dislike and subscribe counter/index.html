@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like, dislike and subscribe counter</title>
+    <style>
+        button{
+            width: 80px;
+            height: 30px;
+           background-color: #e2dddf;
+           color: white;
+           font-weight: bolder;
+           margin-left: 20px;
+           margin-top: 20px;
+           border-radius: 5px ;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzBYBUywiGA5_2QqTjVJvUZBY2OYqlxg1UCQ&usqp=CAU" alt="img">
+    <br>
+    <button  onclick="like()">👍</button>
+    <button onclick="disLike()">👎</button>
+    <button   onclick="subs()">✅</button>
+    
+    <h2 id="like">like :</h2>
+    <h2 id="dislike">dislike :</h2>
+    <h2 id="subcribed">subscriber :</h2>
+    
+</html>
+
+<script>
+    let liked=0;
+    let dislikes=0;
+    let subscribers=0;
+    
+    document.getElementById("like").value = liked;
+    function like(){
+        liked++
+        document.getElementById("like").innerText = "Likes :"+liked;
+    }
+    
+    
+    document.getElementById("dislike").value = dislikes;
+    function disLike(){
+        dislikes++
+        document.getElementById("dislike").innerText = "Dislikes :"+ dislikes;
+    }
+    
+    
+    document.getElementById("subscribed").innerText = subscribers;
+    function subs(){
+        subscribers++
+        document.getElementById("subscribed").innerText = "subscribers :"+ subscribers;
+    }
+
+
+
+
+
+</script>
