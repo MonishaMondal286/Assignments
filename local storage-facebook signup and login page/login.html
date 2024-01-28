@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook log in page</title>
+    <style>
+        #logo>h1{
+            font-size: 50px;
+            color: blue;
+            font-weight: bolder;
+           text-align: center;
+        }
+        #main2{
+               width: 450px;
+               height: 300px;
+               border: 1px solid white;
+               margin: auto;
+               border-radius: 5px;
+               box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        #main2>p{
+            text-align: center;
+            font-size: 20px;
+        }
+        #main2>input{
+            width: 400px;
+            height: 40px;
+            border: 1px solid lightgray;
+            margin-left: 22px;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+        #log{
+            width: 405px;
+            height: 40px;
+            border: 1px solid white; 
+            margin-left: 22px; 
+            border-radius: 5px;
+            color: white;
+            font-size: 23px;
+            background-color: rgb(14, 82, 184);
+        }
+        #main2>a{
+            text-decoration: none;
+            font-size: 17px;
+            margin-left: 80px;
+            color: rgb(14, 82, 184);
+        }
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <h1>facebook</h1>
+    </div>
+
+    <form id="main2">
+        <p>Log in to Facebook</p>
+        <input type="text" id="storedEmail" placeholder="Email address or phone number">
+        <br>
+        <br>
+        <input type="password" id="storedPassword" placeholder="password">
+        <br>
+        <br>
+        <button id="log" onclick="logIn()">Log in</button>
+        <br>
+        <br>
+        <a href="signup.html">Forgotten account? · Sign up for Facebook</a>
+    </form>
+</body>
+</html>
+
+<script>
+    // get input vales
+       function logIn(){
+        let storedEmail = document.getElementById("storedEmail").value;
+        let storedPassword = document.getElementById("storedPassword").value;
+      
+
+       // alert if field is empty
+       if(!storedEmail||!storedPassword){
+        alert("fill the required fields");
+        return;
+       }
+
+       // bring back stored info from local storage
+       let storedinputs = localStorage.getItem(storedEmail);
+
+       //check if the inputs exists
+     if(storedinputs){
+        let info = JSON.parse(storedinputs);
+      
+       if(info.password===storedPassword){
+        localStorage.setItem("storedmobileoremail", storedEmail);
+       }
+       else{
+        alert("wrong password");
+       }
+    }
+    else{
+        alert("user doesn't exist");
+    }
+      
+}
+    
+       //check if password is correct or not 
+      
+    
+
+</script>
+

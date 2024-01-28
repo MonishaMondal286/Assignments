@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Signup page</title>
+    <style>
+        #logo>h1{
+            font-size: 50px;
+            color: blue;
+            font-weight: bolder;
+           text-align: center;
+        }
+
+        #main1{
+               width: 450px;
+               height: 400px;
+               border: 1px solid white;
+               margin: auto;
+               border-radius: 5px;
+               box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        
+        #main1>h2{
+            text-align: center;
+        }
+        #main1>p{
+            text-align: center;
+        }
+        #main1>input{
+            width: 400px;
+            height: 40px;
+            border: 1px solid lightgray;
+            margin-left: 22px;
+            border-radius: 5px;
+            font-size: 16px ;
+        }
+        #sign{
+            width: 200px;
+            height: 35px;
+            border: 0px solid black;
+            margin-top: 20px;
+            margin-left: 130px;
+            border-radius: 8px;
+            color: white;
+            background-color: rgb(45, 189, 45);
+            font-weight: bolder;
+            font-size: 20px;
+        }
+
+        .link{
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(48, 48, 192);
+           margin-left: 125px;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo">
+    <h1>facebook</h1>
+    </div>
+
+    <form id="main1">
+               <h2>Create a new account</h2>
+               <p>It's quick and easy.</p>
+               <hr>
+               <br>
+               <input type="text" id="name" placeholder="Full name">
+               <br>
+               <br>
+               <input type="text" id="mobile" placeholder="Mobile number or email address">
+               <br>
+               <br>
+               <input type="password" id="password" placeholder="New password">
+               <button id="sign" onclick="signIn()">Sign Up</button>
+               <br>
+               <br>
+               <a href="login.html" class="link">Already have an account?</a>
+    </form>
+</body>
+</html>
+
+<script>
+       function signIn(){
+        //input values
+        let fullname = document.getElementById("name").value;
+        let mobilenumber = document.getElementById("mobile").value;
+        let password = document.getElementById("password").value;
+       
+
+        //alert if field is empty
+        if(!fullname||!mobilenumber||!password){
+            alert("fill all the fields");
+            return;
+        }
+
+        //create object to store the values
+        let info={
+            fullname : fullname,
+            mobilenumber: mobilenumber,
+            password : password
+        }
+
+        //storing input in localstorage
+        localStorage.setItem(fullname,JSON.stringify(info));
+    }
+</script>
