@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-2</title>
+    <style>
+        #main{
+            width: 250px;
+            height: 200px;
+            border: 1px solid white;
+            margin-top:  100px;
+            margin-left: 550px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        #display{
+            width: 200px;
+            height: 50px;
+            border: 1px solid gray;
+            margin-left: 24px;
+            margin-top: 10px;
+            border-radius: 5px;
+           font-size: 40px;
+           text-align: center;
+
+        }
+        .incre{
+            width: 80px;
+            height: 30px;
+            border: 1px solid white;
+            margin-top: 50px;
+            margin-left: 30px;
+            border-radius: 5px;
+            font-size: 15px;
+            background-color: rgb(30, 30, 207);
+            color: white;
+            font-weight: bolder;
+        }
+        .res{
+            width: 80px;
+            height: 30px;
+            border: 1px solid white;
+            margin-left: 25px;
+            border-radius: 5px;
+            font-size: 15px;
+            background-color: rgb(30, 30, 207);
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="display">0</div>
+        <button class="incre" onclick="increase()">click</button>
+        <button class="res" onclick="reset()">reset</button>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    //assigning the values
+    let values = 0;
+    if(localStorage.getItem("increment")==null){
+        values = 0;
+    }else{
+        localStorage.getItem("increment");
+    }
+    document.getElementById("display").innerText = values;
+    //check if there is a counter value saved in local storage 
+
+    function increase(){
+        values++;
+        document.getElementById("display").innerText = values;
+        localStorage.setItem("increment",values);
+    }
+
+    function reset(){
+        values = 0;
+        document.getElementById("display").innerText = values;
+        localStorage.setItem("increment",values);
+    }
+
+
+
+</script>

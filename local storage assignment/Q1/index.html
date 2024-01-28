@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LS-1</title>
+    <style>
+          #main{
+            width: 350px;
+            height: 180px;
+            border: 1px solid white ;
+            border-radius: 3px;
+            margin-left: 430px;
+            margin-top: 80px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          } 
+          input{
+            width: 250px;
+            height: 30px;
+            border: 0px solid black ;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 50px;
+          }
+          button{
+            width: 90px;
+            height: 30px;
+            border: 1px solid lightgray ;
+            background-color: maroon;
+            color: white;
+            font-weight: bolder;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 60px;
+            
+          }
+    </style>
+</head>
+<body>
+    <h1 id="show">hi</h1>
+       <div id="main">
+      <input id="texts" type="text" placeholder="enter your feedback" required />
+      <button onclick="saveFun()">save</button>
+      <button onclick="retrieveFun()">retrieve</button>
+
+    </div>
+
+</body>
+</html>
+
+<script>
+
+        // data retrieving 
+        function retrieveFun(){
+            let result = localStorage.getItem("enteredInput") ;
+         let retrieved = document.getElementById("show").innerText = result;  
+         
+        
+      } 
+
+       //data storing in local storage 
+       function saveFun(){
+       let feedback = document.getElementById("texts").value;
+       localStorage.setItem("enteredInput",feedback);
+       }
+
+      
+
+</script>
