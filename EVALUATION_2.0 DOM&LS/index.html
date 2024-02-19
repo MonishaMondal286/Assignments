@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Product</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    input[type="text"], input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        box-sizing: border-box;
+    }
+    select {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+    <a href="/displayProducts.html">All Products</a>
+    <form id="productForm" action="displayProducts.html">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required>
+        
+        <label for="productPrice">Price:</label>
+        <input type="number" id="productPrice" name="productPrice" min="0" step="0.01" required>
+        
+        <label for="productCategory">Category:</label>
+        <select id="productCategory" name="productCategory" required>
+            <option value="" disabled selected>Select Category</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Books">Books</option>
+            <option value="Home & Kitchen">Home & Kitchen</option>
+            <!-- Add more categories as needed -->
+        </select>
+        
+        <label for="productImage">Image Link:</label>
+        <input type="text" id="productImage" name="productImage" required>
+        
+        <input type="submit" value="Add Product">
+    </form>
+
+    
+
+   
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let dataStored = localStorage.getItem("DataProductForm");
+        if(dataStored){
+            let dataOfForm = JSON.parse(dataStored);
+            document.getElementById("productName").value  = dataOfForm.productName;
+            document.getElementById("productPrice").value  = dataOfForm.productPrice;
+            document.getElementById("productCategory").value  = dataOfForm.productCategory;
+            document.getElementById("productImage").value  = dataOfForm.productImage;
+        }
+
+        document.getElementById("productForm").addEventListener("submit", function(event){
+            event.preventDefault(); //preventing the form to submit normally;
+
+            let productName = document.getElementById("productName").value;
+            let productPrice = document.getElementById("productPrice").value;
+            let productCategory = document.getElementById("productCategory").value;
+            let productImage = document.getElementById("productImage").value;
+
+            // Perform validation here if necessary
+
+            let dataOfForm = {
+                productName : productName,
+                productPrice : productPrice,
+                productCategory : productCategory,
+                productImage : productImage
+            };
+
+            localStorage.setItem("DataProductForm", JSON.stringify(dataOfForm));
+        });
+    });
+ </script>
+
+       
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

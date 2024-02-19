@@ -1,0 +1,53 @@
+# **Evaluation: JavaScript Implementation for Product Management System**
+
+---
+
+**Objective:**
+Evaluate the student's ability to write JavaScript code to handle form submission, local storage manipulation, and dynamic HTML generation for a product management system.
+
+**Criteria:**
+
+1. **Form Submission and Local Storage (10 marks):**
+    - **Form Handling:** Verify that the JavaScript code correctly captures form input upon submission.
+    - **Local Storage:** Check if the entered product details are stored accurately in the local storage.
+    - **Data Validation:** Assess if the code includes basic validation for form inputs (e.g., ensuring price is a valid number).
+2. **Dynamic HTML Generation (7 marks):**
+    - **Product Listing:** Evaluate if the JavaScript code retrieves product data from local storage and dynamically generates HTML elements to display each product.
+    - **List Layout:** Check if the generated HTML elements are structured properly to display product information clearly.
+    - **Usability:** Ensure that the product list is presented in a user-friendly and visually appealing manner.
+3. **Code Quality (3 marks):**
+    - **Organization:** Assess if the JavaScript code is well-structured and organized.
+    - **Comments:** Check if the code includes sufficient comments to explain the functionality and logic.
+    - **Best Practices:** Evaluate if the code follows best practices for JavaScript programming.
+
+**Guidelines for Evaluation:**
+
+- **Student's Task:** Write JavaScript code to handle form submission, store product information in local storage, and dynamically generate HTML elements to display the list of products.
+- **Provided HTML/CSS:** The HTML and CSS files for the form layout and styling will be provided to the student. The evaluation will focus solely on the JavaScript implementation.
+- **Evaluation Process:** Examine the JavaScript code provided by the student based on the specified criteria.
+- **Submission Guidelines:** Students are required to submit a single JavaScript file containing their code.
+- **Deadline:18-02-24**   11.59PM
+
+**Detailed Guidelines:**
+
+1. **Form Submission and Local Storage:**
+    - Implement JavaScript code to handle form submission and capture input values.
+    - Utilize the `localStorage` API to store the entered product details.
+    - Validate form inputs to ensure data integrity before storing in local storage.
+2. **Dynamic HTML Generation:**
+    - Retrieve product data from local storage using JavaScript.
+    - Dynamically generate HTML elements (e.g., `<li>`, `<div>`) to display each product in a list format.
+    - Ensure that the product list is updated dynamically whenever new products are added or removed.
+3. **Code Quality:**
+    - Write well-structured JavaScript code with clear variable names and logical organization.
+    - Include comments to explain the functionality of different sections of the code.
+    - Follow best practices for JavaScript programming, such as avoiding global variables and using proper error handling techniques.
+
+**Submission Requirements:**
+
+- The student should submit a single JavaScript file containing their code.
+- Ensure that the JavaScript code is properly commented and follows best practices for readability and maintainability.
+
+
+
+
