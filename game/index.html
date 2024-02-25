@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #game{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    </style>
+</head>
+<div id="game">
+    <button id="random" onclick="ran()">player1</button>
+    <h1 id="result"></h1>
+
+    <button id="random2" onclick="ran2()">player2</button>
+    
+    <h1 id="result2"></h1>
+
+    <h1 id="final"></h1>
+
+</div>
+
+</body>
+</html>
+ 
+<script>
+    let name1 = prompt("player1 : ");
+    document.getElementById("random").innerHTML = name1;
+    let name2 = prompt("player2 : ");
+    document.getElementById("random2").innerHTML = name2;
+
+    let player1 = 0;
+    let player2 = 0;
+    
+       function ran(){
+        
+        let randomNumber = Math.floor(Math.random()*100)+1;
+        document.getElementById("result").innerHTML = randomNumber*5;
+         player1 = randomNumber*5;
+        compareResult();
+        
+    }
+     
+    function ran2(){
+        
+        let randomNumber2 = Math.floor(Math.random()*100)+1;
+        document.getElementById("result2").innerHTML = randomNumber2*5;
+         player2 = randomNumber2*5;
+        compareResult();
+    }
+
+    function compareResult(){
+        if(player1>player2){
+        document.getElementById("final").innerHTML = "player1 is the winner ";
+    }
+    else if(player1<player2){
+        document.getElementById("final").innerHTML = "player2 is the winner ";
+    }
+    else{
+        document.getElementById("final").innerHTML = "its a draw";
+    }
+    }
+   
+
+</script>

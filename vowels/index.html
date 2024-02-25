@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check vowels</title>
+    <style>
+        #container{
+            align-items: center;
+            text-align: center;
+        }
+        #message{
+            font-size: 40px;
+            font-weight: bolder;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+   <h1>CHECK VOWELS </h1>
+   <input id="vowel" type="text" placeholder="Enter any text" required/>
+   <button id="sub" onclick="chk()">submit</button>
+   <div id="message" > </div>
+   </div>
+
+</body>
+</html>
+<!-- Write a program to check ✅ vowels or not -->
+
+<script>
+       function chk(){
+
+      function vowels(str){
+    let vowel = "AEIOUaeiou";
+    let count = 0;
+    for(let i=0;i<str.length;i++){
+        let char = str[i];
+        for(let j=0;j<vowel.length;j++){
+            if(char === vowel[j]){
+                count++;
+                break;
+            }
+        }
+    }
+    if(count>=1){
+        document.getElementById("message").innerHTML = "vowels are present";
+    }
+    else{
+        document.getElementById("message").innerHTML = "vowels are not present";
+
+    }
+}
+let str = document.getElementById("vowel").value;
+vowels(str);
+}
+      
+</script>
+
