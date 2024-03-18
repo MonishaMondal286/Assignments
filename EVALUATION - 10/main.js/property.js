@@ -13,32 +13,35 @@ add_footer.innerHTML=footer();
 
 var houses = [
     {
-      " image" : "https://i.pinimg.com/736x/f5/91/ce/f591ce3a339265f4d84a1931b4c81ec9.jpg",
+      "image" : "https://i.pinimg.com/736x/f5/91/ce/f591ce3a339265f4d84a1931b4c81ec9.jpg",
       "description":"Luxury Ocean View",
      
     },
     {
-        " image" : "https://assets-news.housing.com/news/wp-content/uploads/2022/03/31010142/Luxury-house-design-Top-10-tips-to-add-luxury-to-your-house-FEATURE-compressed.jpg",
+        "image" : "https://assets-news.housing.com/news/wp-content/uploads/2022/03/31010142/Luxury-house-design-Top-10-tips-to-add-luxury-to-your-house-FEATURE-compressed.jpg",
         "description":"Luxury Ocean View",
     },
     {
-        " image" : "https://i.pinimg.com/736x/41/93/e3/4193e31014703c331f0757dfcdef68b4.jpg",
+        "image" : "https://i.pinimg.com/736x/41/93/e3/4193e31014703c331f0757dfcdef68b4.jpg",
         "description":"Luxury Ocean View",
     },
     {
-        " image" : "https://i.pinimg.com/originals/1a/19/76/1a1976a8d664d0c3e3cf3dbb9c1214ef.jpg",
+        "image" : "https://i.pinimg.com/originals/1a/19/76/1a1976a8d664d0c3e3cf3dbb9c1214ef.jpg",
         "description":"Luxury Ocean View",
     },
     {
-        " image" : "https://i.pinimg.com/736x/f5/91/ce/f591ce3a339265f4d84a1931b4c81ec9.jpg",
+        "image" : "https://i.pinimg.com/736x/f5/91/ce/f591ce3a339265f4d84a1931b4c81ec9.jpg",
         "description":"Luxury Ocean View",
     }
 ]
 
-let append = (houses)=>{
-    let housesList = document.getElementById("dream");
-    housesList.innerText = null;
 
+
+let housesList = document.getElementById("dream");
+housesList.innerText = null;
+
+let append = (houses)=>{
+   
     houses.forEach(({image,description})=>{
         let houseDiv = document.createElement("div");
         houseDiv.setAttribute("id","houseDesign");
