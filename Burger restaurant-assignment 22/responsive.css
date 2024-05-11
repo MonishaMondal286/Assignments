@@ -1,0 +1,1091 @@
+/* for small devices */
+@media only screen and (min-width:370px) and (max-width:700px){
+    #navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+       
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+    }
+    .nav>img{
+        width: 70px;
+        height: 70px;
+        
+        padding-left: 50%;
+       
+    }
+    .anch{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .anch>a{
+        text-align: center;
+        margin-bottom: 20px;
+        
+    
+    }
+
+    #cash{
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        background-image: url(https://assets.cntraveller.in/photos/64a54ad70d528c30692aa880/16:9/w_1920,h_1080,c_limit/Title%20Page.png);
+       
+    }
+    #get{
+        text-align: center;
+       
+    
+    }
+    #enjoy{
+        text-align: center;
+       
+       
+    }
+    #order{
+      margin-left: 30%;
+      margin-bottom: 30px;
+      
+        
+    }
+    #chef{
+        width: 100%;
+        height: 100%;
+       
+    }
+    #our{
+        text-align: center;
+        
+    }
+    #chf{
+        text-align: center;
+        
+    }
+    #chef>#members{
+        width: 50%;
+        height: auto;
+        grid-template-columns: repeat(1,3fr);
+        margin: auto;
+        
+      
+    }
+    #chef>#members>.one{
+        width: auto;
+        height: auto;
+       
+    }
+    #chef>#members>.one>img{
+       margin-right: 300px;
+      
+    }
+    #chef>#members>.one>h3{
+        margin-left: 30px;
+        
+
+    }
+    #chef>#members>.one>p{
+        margin-left: 50px;
+        margin-bottom: 30px;
+       
+    }
+    #best{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #best>.first{
+        width: 100%;
+        height: auto;
+        margin: auto;
+       
+    }
+    #best>.bst{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+    }
+    #best>.first>img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+       
+    }
+    .bst>h1{
+        text-align: center;
+       
+    }
+    .bst>p{
+        text-align: center;
+       
+    
+    }
+    .bst>button{
+       margin-left: 30%;
+       margin-bottom: 30px;
+      
+    }
+
+    #white{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    #white>.bur{
+        width: 100%;
+        height: auto;
+        margin: auto;
+       
+    }
+    #white>.big{
+        width: 100%;
+        height: auto;
+        margin: auto; 
+    }
+    #white>.bur>img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+       
+    }
+    .big>h1{
+        text-align: center;
+        
+    }
+    .big>p{
+        text-align: center;
+        
+    
+    }
+    .big>button{
+        margin-left: 30%;
+       margin-bottom: 30px;
+       
+    }
+
+    #stat{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+       
+    }
+    #stat>h1{
+        text-align: center;
+       
+    }
+    #stat>p{
+        text-align: center;
+        
+    }
+    #stat>#cus{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,3fr); 
+        gap: 10px;
+        
+    
+    }
+    #cus>.outlets{
+        width: 80%;
+        height: 240px;
+        margin: auto;
+        
+    }
+    #cus>.outlets>h1{
+        text-align: center;
+        
+    }
+    #cus>.outlets>p{
+        text-align: center;
+       
+    }
+    #popular{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-bottom: 20px;
+        
+    }
+    #popular>h1{
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+    #popular>#package{
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        gap: 10px;
+        margin: auto;
+        
+    }
+    #barry{
+        width: 100%;
+        height: auto;
+       
+    }
+    #barry>p{
+        text-align: center;
+       
+    }
+    #barry>h1{
+        text-align: center;
+        padding-bottom: 10px;
+       
+    }
+    #don{
+        width: 100%;
+        height: auto;
+        
+    }
+    #don>h1{
+        text-align: center;
+       
+    }
+    #don>p{
+        text-align: center;
+        margin-bottom: 20px;
+       
+    }
+    #don>input{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        margin-left: 10px;
+       
+    }
+    #footer{
+        width: 100%;
+        height:auto;
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+        padding-bottom: 20px;
+        
+    }
+    #footer>.title{
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        
+    }
+    #footer>.about{
+        width: 60%;
+        height: auto;
+        margin-left: 30%;
+        margin-top: -2px;
+        margin-bottom: 20px;
+        
+    
+    }
+    #footer>.title>h3{
+        color: white;
+        cursor: pointer;
+        margin-bottom: -10px;
+       
+    
+    }
+    #footer>.title>p{
+        color: white;
+        cursor: pointer;
+        
+       
+    }
+    #footer>.about>h3{
+        color: white;
+        cursor: pointer;
+        margin-bottom: -10px;
+        
+    }
+    #footer>.about>p{
+        color: white;
+        line-height: 25px;
+        cursor: pointer;
+        
+    }
+
+}
+
+/* for medium devices */
+@media only screen and (min-width:701px) and (max-width:1000px){
+    #navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        border: 1px solid red;
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border: 1px solid red;
+    }
+    .nav>img{
+        width: 70px;
+        height: 70px;
+        border: 1px solid red;
+        padding-left: 50%;
+    }
+    .anch{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .anch>a{
+        text-align: center;
+        margin-bottom: 20px;
+        border: 1px solid red;
+    
+    }
+
+    #cash{
+        width: 100%;
+        height: 100%;
+        border: 0px solid black;
+        background-image: url(https://assets.cntraveller.in/photos/64a54ad70d528c30692aa880/16:9/w_1920,h_1080,c_limit/Title%20Page.png);
+        border: 1px solid red;
+    }
+    #get{
+        text-align: center;
+        border: 1px solid red;
+    
+    }
+    #enjoy{
+        text-align: center;
+        border: 1px solid red;
+       
+    }
+    #order{
+      margin-left: 30%;
+      margin-bottom: 30px;
+      border: 1px solid red;
+        
+    }
+    #chef{
+        width: 100%;
+        height: 100%;
+        border: 1px solid red;
+    }
+    #our{
+        text-align: center;
+        border: 1px solid red;
+    }
+    #chf{
+        text-align: center;
+        border: 1px solid red;
+    }
+    #chef>#members{
+        width: 50%;
+        height: auto;
+        grid-template-columns: repeat(1,3fr);
+        margin: auto;
+        border: 1px solid red;
+      
+    }
+    #chef>#members>.one{
+        width: auto;
+        height: auto;
+        border: 1px solid red;
+        margin: auto;
+    }
+    #chef>#members>.one>img{
+        margin: auto;
+       border: 1px solid red;
+    }
+    #chef>#members>.one>h3{
+        margin: auto;
+        border: 1px solid red;
+
+    }
+    #chef>#members>.one>p{
+        margin: auto;
+        margin-bottom: 30px;
+        border: 1px solid red;
+    }
+    #best{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    #best>.first{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border: 1px solid red;
+    }
+    #best>.bst{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border: 1px solid red;
+    }
+    #best>.first>img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border: 1px solid red;
+    }
+    .bst>h1{
+        text-align: center;
+        border: 1px solid red;
+    }
+    .bst>p{
+        text-align: center;
+        border: 1px solid red;
+    
+    }
+    .bst>button{
+       margin-left: 30%;
+       margin-bottom: 30px;
+       border: 1px solid red;
+    }
+
+    #white{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    #white>.bur{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border: 1px solid red;
+    }
+    #white>.big{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border: 1px solid red;
+    }
+    #white>.bur>img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border: 1px solid red;
+    }
+    .big>h1{
+        text-align: center;
+        border: 1px solid red;
+    }
+    .big>p{
+        text-align: center;
+        border: 1px solid red;
+    
+    }
+    .big>button{
+        margin-left: 30%;
+       margin-bottom: 30px;
+       border: 1px solid red;
+    }
+
+    #stat{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+        border: 1px solid red;
+    }
+    #stat>h1{
+        text-align: center;
+        border: 1px solid red;
+    }
+    #stat>p{
+        text-align: center;
+        border: 1px solid red;
+    }
+    #stat>#cus{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,3fr); 
+        gap: 10px;
+        border: 1px solid red;
+    
+    }
+    #cus>.outlets{
+        width: 80%;
+        height: 240px;
+        margin: auto;
+        border: 1px solid red;
+    }
+    #cus>.outlets>h1{
+        text-align: center;
+        border: 1px solid red;
+    }
+    #cus>.outlets>p{
+        text-align: center;
+        border: 1px solid red;
+    }
+    #popular{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-bottom: 20px;
+        border: 1px solid red;
+    }
+    #popular>h1{
+        text-align: center;
+        margin-bottom: 20px;
+        border: 1px solid red;
+    }
+    #popular>#package{
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        gap: 10px;
+        margin: auto;
+        border: 1px solid red;
+    }
+    #popular>#package>.pack{
+        width: 75%;
+        height: 340px;
+        border: 1px solid white;
+        margin-left: 50px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    #popular>#package>.pack>h1{
+        color: rgb(247, 23, 23);
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+    #popular>#package>.pack>img{
+        width:120px;
+        height: 120px;
+        margin: auto;
+    }
+    #popular>#package>.pack>h2{
+        color: rgb(247, 23, 23);
+        text-align: center;
+    }
+    #popular>#package>.pack>p{
+        color: rgb(247, 23, 23);
+        text-align: center;
+    }
+    #popular>#package>.pack>button{
+        width: 260px;
+        height: 40px;
+        margin: auto;
+        
+    }
+    
+    #barry{
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+    }
+    #barry>p{
+        text-align: center;
+        border: 1px solid red;
+    }
+    #barry>h1{
+        text-align: center;
+        padding-bottom: 10px;
+        border: 1px solid red;
+    }
+    #don{
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+    }
+    #don>h1{
+        text-align: center;
+        border: 1px solid red;
+    }
+    #don>p{
+        text-align: center;
+        margin-bottom: 20px;
+        border: 1px solid red;
+    }
+    #don>input{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        margin-left: 10px;
+        border: 1px solid red;
+    }
+    #footer{
+        width: 100%;
+        height:auto;
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+        padding-bottom: 20px;
+        border: 1px solid red;
+    }
+    #footer>.title{
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        border: 1px solid red;
+    }
+    #footer>.about{
+        width: 60%;
+        height: auto;
+        margin-left: 30%;
+        margin-top: -2px;
+        margin-bottom: 20px;
+        border: 1px solid red;
+    
+    }
+    #footer>.title>h3{
+        color: white;
+        cursor: pointer;
+        margin-bottom: -10px;
+        border: 1px solid red;
+    
+    }
+    #footer>.title>p{
+        color: white;
+        cursor: pointer;
+        border: 1px solid red;
+       
+    }
+    #footer>.about>h3{
+        color: white;
+        cursor: pointer;
+        margin-bottom: -10px;
+        border: 1px solid red;
+    }
+    #footer>.about>p{
+        color: white;
+        line-height: 25px;
+        cursor: pointer;
+        border: 1px solid red;
+    }
+
+}
+
+/* for large devices */
+@media only screen and (min-width:1001px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #navbar{
+        width: 100%;
+        height: 80px;
+        border: 0px solid black;
+        display: flex;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+    
+        
+    }
+    .nav{
+        width: 60px;
+        height: 40px;
+        border: 0px solid black;
+    }
+    .nav>img{
+        width: 70px;
+        height: 70px;
+        border: 0px solid black;
+    }
+    .anch{
+        width: 650px;
+        height: 40px;
+        border: 0px solid black;
+        margin-left: 480px;
+        margin-top: 30px;
+        background-color: black;
+    }
+    .anch>a{
+        text-decoration: none;
+        margin-left: 50px;
+        font-weight: bolder;
+        color: white;
+    
+    }
+    #cash{
+        width: 100%;
+        height: 500px;
+        border: 0px solid black;
+        background-image: url(https://assets.cntraveller.in/photos/64a54ad70d528c30692aa880/16:9/w_1920,h_1080,c_limit/Title%20Page.png);
+    }
+    #get{
+        margin-left: 40px;
+        font-size: 40px;
+        color: white;
+    
+    }
+    #enjoy{
+       margin-left: 40px;
+       font-size: 20px;
+       color: white;
+       font-weight: bolder;
+    }
+    #order{
+        width: 200px;
+        height: 40px;
+        border: 0px solid black;
+        background-color: rgb(247, 23, 23);
+        margin-left: 40px;
+        border-radius: 20px;
+        font-weight: bolder;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    #chef{
+        width: 100%;
+        height: 500px;
+        border: 1px solid white; 
+        background-color: rgb(248, 240, 195);
+    }
+    #our{
+        color: rgb(247, 23, 23) ;
+        font-size: 40px;
+        text-align: center;
+    }
+    #chf{
+        text-align: center;
+        color: rgb(247, 23, 23) ;
+    }
+    #chef>#members{
+        width: 80%;
+        height: 300px;
+        border: 1px solid rgb(248, 240, 195); 
+        margin-left: 200px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #chef>#members>.one{
+        width: 100%;
+        height: 300px;
+        border: 1px solid rgb(248, 240, 195); 
+    }
+    #chef>#members>.one>img{
+        width: 60%;
+        height: 180px;
+        border: 1px solid white; 
+        border-radius: 50%;
+    }
+    #chef>#members>.one>h3{
+        margin-left: 30px;
+        color: rgb(247, 23, 23)
+    }
+    #chef>#members>.one>p{
+        margin-left: 50px;
+        color: rgb(247, 23, 23)
+    }
+    
+    #best{
+        width: 100%;
+        height: 500px;
+        border: 1px solid rgb(247, 23, 23); 
+        background-color: rgb(247, 23, 23);
+        display: flex;
+    }
+    #best>.first{
+        width: 450px;
+        height: 350px;
+        border: 1px solid rgb(247, 23, 23); 
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+    #best>.bst{
+        width: 550px;
+        height: 300px;
+        border: 1px solid rgb(247, 23, 23); 
+        margin-left: 100px;
+        margin-top: 120px;
+    }
+    #best>.first>img{
+        width: 450px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .bst>h1{
+        color: white;
+        font-size: 30px;
+    }
+    .bst>p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .bst>button{
+        width: 200px;
+        height: 40px;
+        border: 0px solid black;
+        background-color: white;
+        border-radius: 20px;
+        font-weight: bolder;
+        color: rgb(247, 23, 23);
+        margin-top: 20px;
+    }
+    
+    #white{
+        width: 100%;
+        height: 500px;
+        border: 1px solid white; 
+        background-color: rgb(248, 240, 195);
+        display: flex;
+        
+    }
+    #white>.bur{
+        width: 450px;
+        height: 350px;
+        border: 1px solid rgb(248, 240, 195); 
+        margin-left: 60px;
+        margin-top: 70px;
+    }
+    #white>.big{
+        width: 550px;
+        height: 300px;
+        border: 1px solid rgb(248, 240, 195); 
+        margin-left: 100px;
+        margin-top: 120px;
+    }
+    #white>.bur>img{
+        width: 450px;
+        height: 350px;
+        border-radius: 50%;
+        margin-left: 50px;
+    }
+    .big>h1{
+        color: rgb(247, 23, 23);
+        font-size: 30px;
+    }
+    .big>p{
+        font-size: 18px;
+        color: rgb(247, 23, 23);
+    
+    }
+    .big>button{
+        width: 200px;
+        height: 40px;
+        border: 0px solid black;
+        background-color: rgb(247, 23, 23);
+        border-radius: 20px;
+        font-weight: bolder;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    #stat{
+        width: 100%;
+        height: 500px;
+        border: 1px solid rgb(247, 23, 23);
+        background-color: rgb(247, 23, 23);
+    }
+    #stat>h1{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 40px;
+        color: white;
+    }
+    #stat>p{
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+    #stat>#cus{
+        width: 80%;
+        height: 300px;
+        border: 1px solid rgb(247, 23, 23);
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    
+    }
+    #cus>.outlets{
+        width: 80%;
+        height: 240px;
+        border: 5px solid white;
+        border-radius: 50%;
+    }
+    #cus>.outlets>h1{
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        margin-top: 60px;
+    }
+    #cus>.outlets>p{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #popular{
+        width: 100%;
+        height: 500px;
+        border: 1px solid rgb(248, 240, 195);
+        background-color: rgb(248, 240, 195);
+    }
+    #popular>h1{
+        color: rgb(247, 23, 23);
+        text-align: center;
+    }
+    #popular>#package{
+        width: 90%;
+        height: 350px;
+        border: 1px solid rgb(248, 240, 195);
+        margin-top: 50px;
+        margin-left: 60px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #popular>#package>.pack{
+        width: 75%;
+        height: 340px;
+        border: 1px solid white;
+        margin-left: 50px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    #popular>#package>.pack>h1{
+        color: rgb(247, 23, 23);
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+    #popular>#package>.pack>img{
+        width:120px;
+        height: 120px;
+        margin-left: 90px;
+    }
+    #popular>#package>.pack>h2{
+        color: rgb(247, 23, 23);
+        text-align: center;
+    }
+    #popular>#package>.pack>p{
+        color: rgb(247, 23, 23);
+        text-align: center;
+    }
+    #popular>#package>.pack>button{
+        width: 260px;
+        height: 40px;
+        border: 1px solid rgb(247, 23, 23);
+        margin-top: 15px;
+        margin-left: 17px;
+        color: white;
+        background-color: rgb(247, 23, 23);
+        border-radius: 20px;
+    }
+    
+    #barry{
+        width: 100%;
+        height: 450px;
+        border: 1px solid rgb(248, 240, 195);
+        background-color: rgb(247, 23, 23);
+    }
+    #barry>p{
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    #barry>h1{
+        text-align: center;
+        color: white;
+        margin-top: 70px;
+    }
+    #don{
+        width: 100%;
+        height: 500px;
+        border: 1px solid rgb(248, 240, 195);
+        background-color: rgb(248, 240, 195);
+    }
+    #don>h1{
+        text-align: center;
+        color: rgb(247, 23, 23);
+        margin-top: 70px;
+        font-size: 40px;
+    }
+    #don>p{
+        text-align: center;
+        color: rgb(247, 23, 23);
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    #don>input{
+        width: 300px;
+        height: 35px;
+        border: 1px solid rgb(247, 23, 23);
+        margin-top: 50px;
+        margin-left: 450px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    #don>button{
+        width: 100px;
+        height: 37px;
+        border: 1px solid rgb(247, 23, 23);
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(247, 23, 23);
+    }
+    #footer{
+        width: 100%;
+        height: 400px;
+        border: 1px solid rgb(248, 240, 195);
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    #footer>.title{
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
+        background-color: black;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    #footer>.about{
+        width: 60%;
+        height: 300px;
+        border: 1px solid black;
+        background-color: black;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    #footer>.title>h3{
+        color: white;
+        cursor: pointer;
+    
+    }
+    #footer>.title>p{
+        color: white;
+        cursor: pointer;
+    }
+    #footer>.about>h3{
+        color: white;
+        cursor: pointer;
+    }
+    #footer>.about>p{
+        color: white;
+        line-height: 25px;
+        cursor: pointer;
+    }
+    
+}
